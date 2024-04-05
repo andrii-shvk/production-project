@@ -6,7 +6,7 @@ const MainPage = () => {
     return (
         <div>
             {t('новый перевод')}
-            {t('MainPage')}
+            {t('Главная страница')}
         </div>
     );
 }

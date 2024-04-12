@@ -10,7 +10,7 @@ interface ErrorPageProps {
 
 export const ErrorPage = ({className}: ErrorPageProps) => {
     const {} = useTranslation();
-
+    
     // eslint disable next time no restricted globals
     const reloadPage = () => {
         location.reload();
@@ -21,10 +21,12 @@ export const ErrorPage = ({className}: ErrorPageProps) => {
 
             <p>
                 {t('Произошла непредвиденная ошибка')}
+                Произошла непредвиденная ошибка
             </p>
 
             <Button onClick={reloadPage}>
                 {t('Обновить страницу')}
+                Обновить страницу
             </Button>
 
         </div>

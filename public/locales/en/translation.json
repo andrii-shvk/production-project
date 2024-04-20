@@ -2,6 +2,10 @@
     "TestExample": "Test example",
     "Translate": "Translate",
     "Language": "English",
-    "Страница не найдена": "Page not found"
-
+    "Страница не найдена": "Page not found",
+    "Язык": "Language",
+    "Короткий язык": "En",
+    "Главная": "Main Page",
+    "О сайте": "About us",
+    "Войти": "Sign in"
 }
